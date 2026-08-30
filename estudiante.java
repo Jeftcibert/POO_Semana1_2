@@ -1,4 +1,4 @@
-public class Estudiante {
+public class estudiante {
  
     // Atributos de instancia (privados - encapsulamiento)
     private String nombre;
@@ -9,7 +9,7 @@ public class Estudiante {
     private static int totalEstudiantes = 0;
  
     // Constructor
-    public Estudiante(String nombre, int codigo, double nota) {
+    public estudiante(String nombre, int codigo, double nota) {
         this.nombre = nombre;
         this.codigo = codigo;
         this.nota   = nota;
